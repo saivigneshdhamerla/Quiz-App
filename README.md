@@ -21,3 +21,6 @@ Styling: CSS
 Animations: Framer Motion
 State Management: React Hooks (useState, useEffect)
 Data Storage: localStorage for leaderboard
+
+
+Deploy Link : https://testlinequizapp.netlify.app/
