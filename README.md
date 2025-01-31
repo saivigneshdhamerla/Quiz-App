@@ -1,8 +1,23 @@
-# React + Vite
+Genetics and Evolution Quiz App
+A React-based web application that fetches quiz data, presents it dynamically, and includes gamification features like points, progress tracking, and animations to enhance user engagement.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Dynamic Quiz Questions:
+Fetches and displays multiple-choice questions related to Genetics and Evolution.
+Randomizes questions for each quiz session.
 
-Currently, two official plugins are available:
+Gamification:
+Tracks user progress with a progress bar.
+Awards points for correct answers.
+Displays a leaderboard with historical scores.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User-Friendly UI:
+Clean and responsive design.
+Animations for smooth transitions between questions and results.
+
+Technologies Used
+Frontend: React.js (Vite)
+Styling: CSS
+Animations: Framer Motion
+State Management: React Hooks (useState, useEffect)
+Data Storage: localStorage for leaderboard
